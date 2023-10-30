@@ -1,0 +1,3 @@
+Daily News Emailer
+
+This program utilizes an authorized API from newsapi.org to retrieve the latest news articles. It then extracts the news section and delivers it to the user via email on a daily basis. The implementation is achieved through the utilization of the requests and email libraries, ensuring seamless communication between the API and the user's inbox. This project showcases effective integration of external APIs, data processing, and email automation, providing a convenient solution for staying updated with the latest news.
