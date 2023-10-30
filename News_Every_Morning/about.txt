@@ -1,0 +1,6 @@
+This app basically gets an authorised api from newsapi.org gets what it needs and then sends the news 
+of your liking to your mail everyday.
+
+STEPS -->
+Try to understand the requests lib which will help us in getting the api from the website.
+
