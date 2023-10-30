@@ -5,6 +5,7 @@ api_key = "f01fddc8fb5c49eb8455549965f97e66"
 
 request = requests.get(url)
 
-response = request.text
+response = request.json()
 
-print(response)
+for number, article in enumerate(response['articles'], start = 1):
+    print(f"{number}. {article['title']}")
